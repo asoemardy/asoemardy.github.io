@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
       <meta charset="UTF-8">
-      <title>Latitude Landing Page</title>
+      <title>Wind Speed</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="style.css">
     </head>
@@ -42,12 +42,10 @@
             <div class="col-lg-8">
               <div class = "card">
                 <div class = "card-body">
-                  <h5 class="card-title">Summary: Latitude vs. X</h5>
-                  <hr>
-                  <img src="assets/images/Fig1.png" class="float-left" width="200" height="200">
-                  <p>The purpose of this project was to analyze how weather changes as you get closer to equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                  <br>
-                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <h5 class="card-title">Wind Speed</h5>
+                    <hr>
+                    <img src="assets/images/Fig4.png" class="center">
+                    <p>Based on the graph, it appears that most of the cities have wind speed between 0 to 5 mph. We can observe, however, that the cities that have the highest wind speed tend to be further away from the equator. It will be interesting to look at the particular city that expeience high wind speed (potentially storm is occuring during this time? Hurricane perhaps?).</p>
                 </div>
               </div>
             </div>
@@ -66,7 +64,7 @@
                     <img src="assets/images/Fig3.png" class="float-left" width="150" height="150">
                   </a>
                   <a href="wind_spd.html">
-                    <img src="assets/images/Fig4.png" class="float-left" width="150" height="150">
+                    <img src="assets/images/Fig4.png" class="float-left" id="chosen" width="150" height="150">
                   </a>
 
                 </div>
@@ -80,4 +78,3 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
-  
